@@ -100,6 +100,7 @@
 		83A9C752229CAB3C00040119 /* QuestionAnswerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A9C751229CAB3C00040119 /* QuestionAnswerCollectionViewCell.swift */; };
 		83A9C754229DF0F600040119 /* QuestionFooterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A9C753229DF0F600040119 /* QuestionFooterCollectionReusableView.swift */; };
 		83A9C756229E297B00040119 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A9C755229E297B00040119 /* MenuViewController.swift */; };
+		83E92D0224EA2F3F00E07D33 /* MenuViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E92D0124EA2F3F00E07D33 /* MenuViewControllerTests.swift */; };
 		83F607F322AB629500ED22E7 /* MQFPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F607F222AB629500ED22E7 /* MQFPreset.swift */; };
 		83F607F522AB661900ED22E7 /* MQFBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F607F422AB661900ED22E7 /* MQFBase.swift */; };
 		83F607F822AC62BB00ED22E7 /* CenterAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F607F722AC62BB00ED22E7 /* CenterAlignedCollectionViewFlowLayout.swift */; };
@@ -239,6 +240,7 @@
 		83A9C751229CAB3C00040119 /* QuestionAnswerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerCollectionViewCell.swift; sourceTree = "<group>"; };
 		83A9C753229DF0F600040119 /* QuestionFooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFooterCollectionReusableView.swift; sourceTree = "<group>"; };
 		83A9C755229E297B00040119 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		83E92D0124EA2F3F00E07D33 /* MenuViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewControllerTests.swift; sourceTree = "<group>"; };
 		83F607F222AB629500ED22E7 /* MQFPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQFPreset.swift; sourceTree = "<group>"; };
 		83F607F422AB661900ED22E7 /* MQFBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQFBase.swift; sourceTree = "<group>"; };
 		83F607F722AC62BB00ED22E7 /* CenterAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
@@ -490,6 +492,7 @@
 				832F079E23E2865600BBA3C6 /* QKQuestion.swift */,
 				83A9C7202299BBEC00040119 /* MQFTests.swift */,
 				83A9C7222299BBEC00040119 /* Info.plist */,
+				83E92D0124EA2F3F00E07D33 /* MenuViewControllerTests.swift */,
 			);
 			path = MQFTests;
 			sourceTree = "<group>";
@@ -893,6 +896,7 @@
 			files = (
 				832F07E623E3F22600BBA3C6 /* SequenceTypeTests.swift in Sources */,
 				83A9C7212299BBEC00040119 /* MQFTests.swift in Sources */,
+				83E92D0224EA2F3F00E07D33 /* MenuViewControllerTests.swift in Sources */,
 				832F07A323E2899E00BBA3C6 /* DataManagerTests.swift in Sources */,
 				832F07E923E3F22600BBA3C6 /* PrintableTests.swift in Sources */,
 				832F07F823E3F2E900BBA3C6 /* UICircularProgressRingPauseResetTests.swift in Sources */,

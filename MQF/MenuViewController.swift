@@ -210,8 +210,8 @@ class MenuViewController: UIViewController {
      */
     private func showUpdatePrompt(){
 
-        
-        if(self.determineIfLastShownIn30()){// show prompt if last shown more than 30 days ago
+            let lastShown = Date(timeIntervalSince1970: MQFDefaults().double(forKey: MQFDefaults.lastShownUpdatePrompt))
+        if(self.determineIfLastShownIn30(date: lastShown)){// show prompt if last shown more than 30 days ago
         
         let alert = UIAlertController(title: "Update MQF", message: "Hello, please go to Work Apps and click \"Install\" or \"Prepaid\" to get the latest version of this app and your MQFs", preferredStyle: .alert)
 
@@ -223,11 +223,10 @@ class MenuViewController: UIViewController {
         }
     }
     
-    private func determineIfLastShownIn30()->Bool {
-        let lastShown = Date(timeIntervalSince1970: MQFDefaults().double(forKey: MQFDefaults.lastShownUpdatePrompt))
-             let nowLess30 = Date().addingTimeInterval(-30*24*60*60)
-             
-             if(lastShown < nowLess30){
+    func determineIfLastShownIn30(date:Date)->Bool {
+                     let nowLess30 = Date().addingTimeInterval(-30*24*60*60)
+             print("NowLess30: \(nowLess30) - Date: \(date)")
+             if(date < nowLess30){
                 return true;
         }
         return false;
