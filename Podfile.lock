@@ -1,24 +1,20 @@
 PODS:
-  - Eureka (5.2.1)
+  - Eureka (5.3.2)
   - SwiftyJSON (4.3.0)
-  - UICircularProgressRing (6.5.0)
 
 DEPENDENCIES:
   - Eureka
   - SwiftyJSON (~> 4.0)
-  - UICircularProgressRing
 
 SPEC REPOS:
   trunk:
     - Eureka
     - SwiftyJSON
-    - UICircularProgressRing
 
 SPEC CHECKSUMS:
-  Eureka: c883105488e05bc65539f583246ecf9657cabbfe
+  Eureka: 1c2b8b5892bfb0e972d0fe05f8c09fd89f8625ec
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
-  UICircularProgressRing: e6852e8f88e296cbbbe2720cccb55241acda6708
 
-PODFILE CHECKSUM: 66ee1e6a655a5df1518f9be7ea23c873a7d388c6
+PODFILE CHECKSUM: 1fecaea8461f8f30362b6bd3d996600675789d84
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

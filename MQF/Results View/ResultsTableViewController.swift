@@ -49,8 +49,8 @@ class ResultsTableViewController: UITableViewController {
             cell.incorrectOutlet.text = "\(incorrect)"
             
             let percent = Double(session?.score ?? 0) / Double(session?.questionCount ?? 0)
-            cell.scoreCircle.value = CGFloat(percent*100)
-            cell.scoreCircle.style = .dotted
+//            cell.scoreCircle.value = CGFloat(percent*100)
+//            cell.scoreCircle.style = .dotted
             return cell
         }
         

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -76,6 +76,9 @@
 		832F07FA23E3F2E900BBA3C6 /* UICircularTimerRingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F07F623E3F2E900BBA3C6 /* UICircularTimerRingTests.swift */; };
 		832F07FB23E3F2E900BBA3C6 /* UICircularProgressRingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F07F723E3F2E900BBA3C6 /* UICircularProgressRingTests.swift */; };
 		832F080423E3F35900BBA3C6 /* MQFTestsWithFrameworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832F080323E3F35900BBA3C6 /* MQFTestsWithFrameworks.swift */; };
+		836C524B25FE385F00770499 /* SettingsViewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C524A25FE385F00770499 /* SettingsViewSwiftUI.swift */; };
+		836C525525FE3B0C00770499 /* ChooseMQFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C525425FE3B0C00770499 /* ChooseMQFView.swift */; };
+		836C526425FE3C3900770499 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836C526325FE3C3900770499 /* QuestionView.swift */; };
 		837E02A923B136B000489C2A /* Quiz Kit LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 837E02A823B136B000489C2A /* Quiz Kit LICENSE */; };
 		837E02AB23B136E000489C2A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 837E02AA23B136E000489C2A /* README.md */; };
 		838838D822A39303000896C6 /* pentagon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 838838D722A39303000896C6 /* pentagon.jpg */; };
@@ -100,6 +103,11 @@
 		83A9C752229CAB3C00040119 /* QuestionAnswerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A9C751229CAB3C00040119 /* QuestionAnswerCollectionViewCell.swift */; };
 		83A9C754229DF0F600040119 /* QuestionFooterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A9C753229DF0F600040119 /* QuestionFooterCollectionReusableView.swift */; };
 		83A9C756229E297B00040119 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A9C755229E297B00040119 /* MenuViewController.swift */; };
+		83E88F2025D8C3DD0051F878 /* UICircularProgressRing in Frameworks */ = {isa = PBXBuildFile; productRef = 83E88F1F25D8C3DD0051F878 /* UICircularProgressRing */; };
+		83E88F5325D8D4370051F878 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E88F5225D8D4370051F878 /* MainScreenView.swift */; };
+		83E88F5925D985F50051F878 /* HostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E88F5825D985F40051F878 /* HostingViewController.swift */; };
+		83E88F6025D9D1F20051F878 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E88F5F25D9D1F20051F878 /* TextButton.swift */; };
+		83E88F6625D9EAF10051F878 /* TextAndImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E88F6525D9EAF10051F878 /* TextAndImageButton.swift */; };
 		83F607F322AB629500ED22E7 /* MQFPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F607F222AB629500ED22E7 /* MQFPreset.swift */; };
 		83F607F522AB661900ED22E7 /* MQFBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F607F422AB661900ED22E7 /* MQFBase.swift */; };
 		83F607F822AC62BB00ED22E7 /* CenterAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F607F722AC62BB00ED22E7 /* CenterAlignedCollectionViewFlowLayout.swift */; };
@@ -205,6 +213,9 @@
 		832F080123E3F35900BBA3C6 /* MQFTestsWithFrameworks.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQFTestsWithFrameworks.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		832F080323E3F35900BBA3C6 /* MQFTestsWithFrameworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQFTestsWithFrameworks.swift; sourceTree = "<group>"; };
 		832F080523E3F35900BBA3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836C524A25FE385F00770499 /* SettingsViewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewSwiftUI.swift; sourceTree = "<group>"; };
+		836C525425FE3B0C00770499 /* ChooseMQFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMQFView.swift; sourceTree = "<group>"; };
+		836C526325FE3C3900770499 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		8378DECB23B55AC00031579A /* available.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = available.json; sourceTree = "<group>"; };
 		837E02A823B136B000489C2A /* Quiz Kit LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Quiz Kit LICENSE"; sourceTree = "<group>"; };
 		837E02AA23B136E000489C2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -239,6 +250,10 @@
 		83A9C751229CAB3C00040119 /* QuestionAnswerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnswerCollectionViewCell.swift; sourceTree = "<group>"; };
 		83A9C753229DF0F600040119 /* QuestionFooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFooterCollectionReusableView.swift; sourceTree = "<group>"; };
 		83A9C755229E297B00040119 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		83E88F5225D8D4370051F878 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		83E88F5825D985F40051F878 /* HostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingViewController.swift; sourceTree = "<group>"; };
+		83E88F5F25D9D1F20051F878 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		83E88F6525D9EAF10051F878 /* TextAndImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndImageButton.swift; sourceTree = "<group>"; };
 		83F607F222AB629500ED22E7 /* MQFPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQFPreset.swift; sourceTree = "<group>"; };
 		83F607F422AB661900ED22E7 /* MQFBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQFBase.swift; sourceTree = "<group>"; };
 		83F607F722AC62BB00ED22E7 /* CenterAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
@@ -264,6 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E88F2025D8C3DD0051F878 /* UICircularProgressRing in Frameworks */,
 				11DB3EB4EA850C5B35141609 /* Pods_MQF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +427,30 @@
 			path = MQFTestsWithFrameworks;
 			sourceTree = "<group>";
 		};
+		836C524925FE384200770499 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				836C524A25FE385F00770499 /* SettingsViewSwiftUI.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		836C525325FE3AFB00770499 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				836C525425FE3B0C00770499 /* ChooseMQFView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		836C526225FE3C2700770499 /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				836C526325FE3C3900770499 /* QuestionView.swift */,
+			);
+			path = QuestionView;
+			sourceTree = "<group>";
+		};
 		8378DECA23B55A940031579A /* Test JSON Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +503,7 @@
 		83A9C7082299BBEB00040119 /* MQF */ = {
 			isa = PBXGroup;
 			children = (
+				83E88F5025D8D4140051F878 /* SwiftUIViews */,
 				8320218C22A78FF1003BBB8C /* MQF.entitlements */,
 				8320218722A775D5003BBB8C /* Extensions and Helpers */,
 				8378DECA23B55A940031579A /* Test JSON Data */,
@@ -534,6 +575,36 @@
 			path = "Question View";
 			sourceTree = "<group>";
 		};
+		83E88F5025D8D4140051F878 /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				836C526225FE3C2700770499 /* QuestionView */,
+				836C525325FE3AFB00770499 /* Menu */,
+				836C524925FE384200770499 /* Settings */,
+				83E88F5E25D9D1E30051F878 /* Utilities */,
+				83E88F5125D8D41D0051F878 /* MainScreen */,
+				83E88F5825D985F40051F878 /* HostingViewController.swift */,
+			);
+			path = SwiftUIViews;
+			sourceTree = "<group>";
+		};
+		83E88F5125D8D41D0051F878 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				83E88F5225D8D4370051F878 /* MainScreenView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		83E88F5E25D9D1E30051F878 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				83E88F5F25D9D1F20051F878 /* TextButton.swift */,
+				83E88F6525D9EAF10051F878 /* TextAndImageButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		D2F05950ADD1B082C79A4A3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,6 +654,9 @@
 			dependencies = (
 			);
 			name = MQF;
+			packageProductDependencies = (
+				83E88F1F25D8C3DD0051F878 /* UICircularProgressRing */,
+			);
 			productName = MQF;
 			productReference = 83A9C7062299BBEB00040119 /* MQF.app */;
 			productType = "com.apple.product-type.application";
@@ -670,6 +744,9 @@
 				Base,
 			);
 			mainGroup = 83A9C6FD2299BBEB00040119;
+			packageReferences = (
+				83E88F1E25D8C3DD0051F878 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */,
+			);
 			productRefGroup = 83A9C7072299BBEB00040119 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -863,11 +940,16 @@
 				8320217A22A47248003BBB8C /* SummaryTableViewCell.swift in Sources */,
 				8320218622A71513003BBB8C /* SettingsViewController.swift in Sources */,
 				83A9C756229E297B00040119 /* MenuViewController.swift in Sources */,
+				836C525525FE3B0C00770499 /* ChooseMQFView.swift in Sources */,
 				83F607F822AC62BB00ED22E7 /* CenterAlignedCollectionViewFlowLayout.swift in Sources */,
+				83E88F6025D9D1F20051F878 /* TextButton.swift in Sources */,
+				836C526425FE3C3900770499 /* QuestionView.swift in Sources */,
 				83F607F522AB661900ED22E7 /* MQFBase.swift in Sources */,
+				83E88F6625D9EAF10051F878 /* TextAndImageButton.swift in Sources */,
 				83A9C752229CAB3C00040119 /* QuestionAnswerCollectionViewCell.swift in Sources */,
 				8320218B22A7800C003BBB8C /* BorderedButton.swift in Sources */,
 				83A9C7412299BE8B00040119 /* Array + Shuffled.swift in Sources */,
+				836C524B25FE385F00770499 /* SettingsViewSwiftUI.swift in Sources */,
 				83A9C7442299BE8B00040119 /* QKQuestion.swift in Sources */,
 				83A9C70A2299BBEB00040119 /* AppDelegate.swift in Sources */,
 				83A9C7452299BE8B00040119 /* QKQuiz.swift in Sources */,
@@ -879,8 +961,10 @@
 				8320219222A81A8D003BBB8C /* MQFData.swift in Sources */,
 				83A9C7462299BE8B00040119 /* QKError.swift in Sources */,
 				83A9C7472299BE8B00040119 /* QKSession.swift in Sources */,
+				83E88F5925D985F50051F878 /* HostingViewController.swift in Sources */,
 				8320218922A775E2003BBB8C /* extensions.swift in Sources */,
 				8320217C22A47253003BBB8C /* QuestionTableViewCell.swift in Sources */,
+				83E88F5325D8D4370051F878 /* MainScreenView.swift in Sources */,
 				83A9C754229DF0F600040119 /* QuestionFooterCollectionReusableView.swift in Sources */,
 				8320219422AB2FF0003BBB8C /* ChooseMQFViewController.swift in Sources */,
 				838DFFAC22F2A61B00B71F07 /* SetUpViewController.swift in Sources */,
@@ -1152,6 +1236,7 @@
 				CURRENT_PROJECT_VERSION = 2230;
 				DEVELOPMENT_TEAM = RQ9T47YT3S;
 				INFOPLIST_FILE = MQF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1174,6 +1259,7 @@
 				CURRENT_PROJECT_VERSION = 2230;
 				DEVELOPMENT_TEAM = RQ9T47YT3S;
 				INFOPLIST_FILE = MQF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1321,6 +1407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83E88F1E25D8C3DD0051F878 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/luispadron/UICircularProgressRing.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83E88F1F25D8C3DD0051F878 /* UICircularProgressRing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83E88F1E25D8C3DD0051F878 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */;
+			productName = UICircularProgressRing;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83A9C6FE2299BBEB00040119 /* Project object */;
 }

@@ -13,7 +13,7 @@ class SummaryTableViewCell: UITableViewCell {
 
     @IBOutlet var correctOutlet: UILabel!
     @IBOutlet var incorrectOutlet: UILabel!
-    @IBOutlet var scoreCircle: UICircularProgressRing!
+   // @IBOutlet var scoreCircle: UICircularProgressRing!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

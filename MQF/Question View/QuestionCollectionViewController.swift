@@ -96,19 +96,19 @@ class QuestionCollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         if(kind == UICollectionView.elementKindSectionHeader){
             let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "questionHeader", for: indexPath) as! QuestionheaderCollectionReusableView
-            if(self.mode == .Test){
-                view.scoreRing.alpha = 0.5
-                view.scoreStackView.isHidden = true
-                view.scoreRing.style = .ontop
-            }else{
-                view.updateScore(session: quizSession)
-            }
-            if((activeQuestion) != nil){
-                view.questionLabel.text = activeQuestion?.question
-                view.updateProgress(session: quizSession, question: activeQuestion!)
-            }else{
-                view.questionLabel.text = "Please select a MQF"
-            }
+//            if(self.mode == .Test){
+//                view.scoreRing.alpha = 0.5
+//                view.scoreStackView.isHidden = true
+//                view.scoreRing.style = .ontop
+//            }else{
+//                view.updateScore(session: quizSession)
+//            }
+//            if((activeQuestion) != nil){
+//                view.questionLabel.text = activeQuestion?.question
+//                view.updateProgress(session: quizSession, question: activeQuestion!)
+//            }else{
+//                view.questionLabel.text = "Please select a MQF"
+//            }
             
             
             return view
