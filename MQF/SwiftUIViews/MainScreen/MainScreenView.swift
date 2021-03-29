@@ -73,7 +73,7 @@ struct MainScreenView: View {
                 }
           
                 VStack(spacing:10){
-                    NavigationLink(destination: QuestionView(mode: .study).navigationBarTitle(Text("Study"), displayMode: .inline), isActive: $showingQuestions) { EmptyView() }
+                    NavigationLink(destination: QuestionView(mode: QuizMode.Study).navigationBarTitle(Text("Study"), displayMode: .inline), isActive: $showingQuestions) { EmptyView() }
                     TextButton(text: "Study"){
                         showingQuestions.toggle()
                     }

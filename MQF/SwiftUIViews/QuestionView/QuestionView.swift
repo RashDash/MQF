@@ -24,7 +24,7 @@ struct QuestionView: UIViewControllerRepresentable {
     }
     
     func makeUIViewController(context: Context) ->QuestionCollectionViewController {
-        let menuViewController = QuestionCollectionViewController()
+        let menuViewController = QuestionCollectionViewController(collectionViewLayout: UICollectionViewFlowLayout())
         return menuViewController
     }
     
@@ -33,7 +33,7 @@ struct QuestionView: UIViewControllerRepresentable {
     }
  }
 
-enum QuizMode {
+public enum QuizMode {
     case Study
     case Test
 }
